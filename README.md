@@ -21,6 +21,7 @@ npx http-server -c-1 -p4200 .
 There are comments throughout the example service workers. A few have emoji to draw extra attention to interesting areas:
 
 - 🪄✨ - Try changing values to see how they impact the behavior of the site.
+- 🚨 - Watch out for potential pitfalls!
 
 # Assets used
 
