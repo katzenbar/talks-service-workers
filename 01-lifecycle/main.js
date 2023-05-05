@@ -11,6 +11,8 @@ window.addEventListener("DOMContentLoaded", (event) => {
     navigator.serviceWorker.oncontrollerchange = (ev) => {
       console.log("New service worker activated");
     };
+
+    console.log("This is the service worker currently controlling the page:", navigator.serviceWorker.controller);
   }
 });
 
